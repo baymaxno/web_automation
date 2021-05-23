@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大白搜索</title>
+</head>
+<body>
+
+    <!--标题 heading-->
+    <h1 id="title" onclick="red(this)">大白搜索</h1>
+
+    <!--段落 P  br换行-->
+    <p>这是我们自己的搜索<br>引擎</p>
+
+    <!--无序列表-->
+    <ul>
+        <li>大白
+            <ul>这是一个内嵌列表
+                <li>名字</li>
+            </ul>
+        </li>
+        <li>晴天</li>
+        <li>锤锤</li>
+    </ul>
+
+    <!--有序列表-->
+    <ol>
+        <li>这是一个有序列表</li>
+    </ol>
+
+    <!--表格 table-->
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+        </tr>
+        <tr>
+            <td>大白</td>
+            <td>男</td>
+            <td>18</td>
+        </tr>
+
+    </table>
+    <br>
+    <a href="http://npm.taobao.org/mirrors/chromedriver/" target="_blank">chromdriver下载网页</a>
+    <br>
+    <iframe src="https://www.baidu.com"></iframe>
+
+    <form action="" method="get">
+        <div>
+           <input> 请输入
+        </div>
+        <div>性别
+            <input type="radio" name="gender" value="男">男
+            <input type="radio" name="gender" value="女">女
+        </div>
+        <div>兴趣爱好
+            <input type="checkbox" name="interest" value="打篮球">打篮球
+            <input type="checkbox" name="interest" value="打游戏">打游戏
+            <input type="checkbox" name="interest" value="唱歌">唱歌
+        </div>
+        <div>
+            <input type="file">
+        </div>
+        <div>喜欢的年龄
+            <select name="age">
+                <option>18</option>
+                <option>20</option>
+                <option>22</option>
+            </select>
+        </div>
+        <input type="button" value="提交">
+
+    </form>
+    <br>
+    <a href="#title">
+        <img src="E:\web\img\2f738bd4b31c87018ef76502257f9e2f0608ff95.jpg"/>
+    </a>
+
+
+<script>
+     function red(e){
+            e.style.color = 'red'
+        }
+</script>
+</body>
+</html>
