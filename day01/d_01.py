@@ -8,13 +8,12 @@ driver.get("http://www.baidu.com")
 
 ele = driver.find_element_by_id("kw")
 
-print(ele)
-
 ele.send_keys("腾讯视频")
 # get_attribute  获取指定属性值
 print(ele.get_attribute("name"))
-
 sleep(3)
 
+driver.find_element_by_id("su").click()
 
-driver.quit()
+
+# driver.quit()
